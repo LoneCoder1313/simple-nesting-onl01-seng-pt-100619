@@ -36,6 +36,9 @@ def alan_kay_is_known_for
           :languages => ["C"]
         }
      }
+        known_for.collect |:alan_kay|
+        
+        
 end
 
 def dennis_ritchies_language
