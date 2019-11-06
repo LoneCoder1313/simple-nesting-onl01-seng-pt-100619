@@ -5,7 +5,6 @@ def hopper
         :grace_hopper => {
           :known_for => "COBOL",
           :languages => ["COBOL", "FORTRAN"]
-          #expect(hopper).to eq({:known_for => "COBOL", :languages => ["COBOL", "FORTRAN"]})
         },
         :alan_kay => {
           :known_for => "Object Orientation",
@@ -16,7 +15,7 @@ def hopper
           :languages => ["C"]
         }
      }
-
+           hopper == {:known_for => "COBOL", :languages => {"COBOL", "FORTRAN"}}
 end
 
 def alan_kay_is_known_for
