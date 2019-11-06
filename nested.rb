@@ -15,7 +15,7 @@ def hopper
           :languages => ["C"]
         }
      }
-
+                  expect(hopper).to eq({:known_for => "COBOL", :languages => ["COBOL", "FORTRAN"]})
 
 end
 
